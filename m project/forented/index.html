@@ -1,0 +1,1966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ExamShuffle | Online Test & Coding Assessment</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER / NAVBAR
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            🎓 <span>ExamShuffle</span>
+        </div>
+
+        <nav>
+            <a href="#" onclick="showSection('home')">Home</a>
+            <a href="#" onclick="showSection('about')">About</a>
+            <a href="#" onclick="showSection('login')">Login</a>
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         HOME SECTION
+    ========================== -->
+
+    <main>
+
+        <section id="home" class="section active">
+
+            <div class="hero">
+
+                <div class="hero-content">
+
+                    <p class="hero-tag">
+                        SMART TESTING • CODING • ASSESSMENT
+                    </p>
+
+                    <h1>
+                        Test Your Skills.<br>
+                        <span>Build Your Future.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        ExamShuffle is a complete online assessment platform
+                        for MCQ tests, coding assessments, secure monitoring,
+                        automatic evaluation and result tracking.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <button
+                            class="primary-btn"
+                            onclick="showSection('login')">
+                            Get Started
+                        </button>
+
+                        <button
+                            class="secondary-btn"
+                            onclick="showSection('about')">
+                            Learn More
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FEATURES -->
+
+            <div class="features-section">
+
+                <h2>Everything You Need for Online Assessment</h2>
+
+                <p class="section-subtitle">
+                    A single platform for conducting secure and effective
+                    online tests.
+                </p>
+
+
+                <div class="feature-grid">
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">📝</div>
+
+                        <h3>MCQ Tests</h3>
+
+                        <p>
+                            Create and manage multiple-choice questions
+                            with automatic evaluation.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">💻</div>
+
+                        <h3>Coding Tests</h3>
+
+                        <p>
+                            Candidates can solve programming problems
+                            using an integrated coding environment.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">⏱️</div>
+
+                        <h3>Timed Exams</h3>
+
+                        <p>
+                            Fixed-duration tests with automatic submission
+                            when the timer expires.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">📷</div>
+
+                        <h3>Smart Monitoring</h3>
+
+                        <p>
+                            Camera and microphone monitoring with
+                            suspicious activity detection.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">🏆</div>
+
+                        <h3>Results & Leaderboard</h3>
+
+                        <p>
+                            Automatic score calculation, result history
+                            and class leaderboard.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">🔐</div>
+
+                        <h3>Secure Access</h3>
+
+                        <p>
+                            Separate authentication and access for
+                            administrators and candidates.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- =========================
+             ABOUT SECTION
+        ========================== -->
+
+        <section id="about" class="section">
+
+            <div class="page-header">
+
+                <p class="hero-tag">ABOUT EXAMSHUFFLE</p>
+
+                <h2>One Platform. Complete Assessment.</h2>
+
+                <p>
+                    ExamShuffle is designed to provide a secure and
+                    user-friendly environment for online examinations
+                    and coding assessments.
+                </p>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-card">
+
+                    <div class="feature-icon">🎯</div>
+
+                    <h3>For Administrators</h3>
+
+                    <p>
+                        Admins can create and manage tests, MCQs, coding
+                        questions, test cases, candidates, results and
+                        leaderboards from a dedicated dashboard.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="feature-icon">👨‍💻</div>
+
+                    <h3>For Candidates</h3>
+
+                    <p>
+                        Candidates can attempt assigned tests, solve
+                        coding problems, submit answers and view their
+                        results and assessment history.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="feature-icon">🛡️</div>
+
+                    <h3>Secure Assessment</h3>
+
+                    <p>
+                        The platform is designed with authentication,
+                        test monitoring, activity logging and controlled
+                        access to make assessments more reliable.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-highlight">
+
+                <h3>How ExamShuffle Works</h3>
+
+                <div class="steps-grid">
+
+                    <div class="step-card">
+
+                        <span class="step-number">01</span>
+
+                        <h4>Register</h4>
+
+                        <p>
+                            Create a secure candidate account or access
+                            the platform as an administrator.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step-card">
+
+                        <span class="step-number">02</span>
+
+                        <h4>Take Test</h4>
+
+                        <p>
+                            Attempt MCQ and coding questions within
+                            the assigned time limit.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step-card">
+
+                        <span class="step-number">03</span>
+
+                        <h4>Submit</h4>
+
+                        <p>
+                            Submit answers manually or let the system
+                            automatically submit when time expires.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step-card">
+
+                        <span class="step-number">04</span>
+
+                        <h4>Get Results</h4>
+
+                        <p>
+                            View automatically calculated scores,
+                            performance and leaderboard information.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LOGIN SECTION
+        ========================== -->
+
+        <section id="login" class="section">
+
+            <div class="auth-container">
+
+                <div class="auth-header">
+
+                    <p class="hero-tag">WELCOME BACK</p>
+
+                    <h2>Login to ExamShuffle</h2>
+
+                    <p>
+                        Select your account type to continue.
+                    </p>
+
+                </div>
+
+
+                <!-- LOGIN ROLE BUTTONS -->
+
+                <div class="role-tabs">
+
+                    <button
+                        id="candidateLoginTab"
+                        class="role-tab active"
+                        onclick="selectLoginRole('candidate')">
+
+                        👨‍💻 Candidate
+
+                    </button>
+
+
+                    <button
+                        id="adminLoginTab"
+                        class="role-tab"
+                        onclick="selectLoginRole('admin')">
+
+                        🛠️ Admin
+
+                    </button>
+
+                </div>
+
+
+                <!-- LOGIN FORM -->
+
+                <form id="loginForm" class="auth-form">
+
+                    <div class="form-group">
+
+                        <label for="loginEmail">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="loginEmail"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="loginPassword">
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="loginPassword"
+                            placeholder="Enter your password"
+                            autocomplete="current-password"
+                            required>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="primary-btn full-width">
+
+                        Login
+
+                    </button>
+
+
+                    <p class="auth-switch">
+
+                        Don't have a candidate account?
+
+                        <a
+                            href="#"
+                            onclick="showSignup(); return false;">
+
+                            Create Account
+
+                        </a>
+
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SIGNUP SECTION
+        ========================== -->
+
+        <section id="signup" class="section">
+
+            <div class="auth-container">
+
+                <div class="auth-header">
+
+                    <p class="hero-tag">CREATE ACCOUNT</p>
+
+                    <h2>Candidate Registration</h2>
+
+                    <p>
+                        Create your account to participate in assessments.
+                    </p>
+
+                </div>
+
+
+                <form id="signupForm" class="auth-form">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="signupName">
+                                Full Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="signupName"
+                                placeholder="Enter your full name"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="signupStudentId">
+                                Student ID
+                            </label>
+
+                            <input
+                                type="text"
+                                id="signupStudentId"
+                                placeholder="Enter student ID"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="signupEmail">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="signupEmail"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="signupPassword">
+                                Password
+                            </label>
+
+                            <input
+                                type="password"
+                                id="signupPassword"
+                                placeholder="Create password"
+                                autocomplete="new-password"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="signupConfirmPassword">
+                                Confirm Password
+                            </label>
+
+                            <input
+                                type="password"
+                                id="signupConfirmPassword"
+                                placeholder="Confirm password"
+                                autocomplete="new-password"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="primary-btn full-width">
+
+                        Create Candidate Account
+
+                    </button>
+
+
+                    <p class="auth-switch">
+
+                        Already have an account?
+
+                        <a
+                            href="#"
+                            onclick="showSection('login'); return false;">
+
+                            Login
+
+                        </a>
+
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+        <!-- =========================
+             ADMIN DASHBOARD
+        ========================== -->
+
+        <section id="adminDashboard" class="section dashboard-section">
+
+            <div class="dashboard-header">
+
+                <div>
+                    <p class="hero-tag">ADMIN PANEL</p>
+
+                    <h2>Administrator Dashboard</h2>
+
+                    <p>
+                        Manage candidates, tests, questions, results
+                        and assessment activities.
+                    </p>
+                </div>
+
+                <button
+                    class="secondary-btn"
+                    onclick="logout()">
+                    Logout
+                </button>
+
+            </div>
+
+
+            <!-- ADMIN STATISTICS -->
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">👥</div>
+
+                    <div>
+                        <span class="stat-label">
+                            Candidates
+                        </span>
+
+                        <strong id="adminCandidateCount">
+                            0
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">📝</div>
+
+                    <div>
+                        <span class="stat-label">
+                            Tests
+                        </span>
+
+                        <strong id="adminTestCount">
+                            0
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">📊</div>
+
+                    <div>
+                        <span class="stat-label">
+                            Submissions
+                        </span>
+
+                        <strong id="adminSubmissionCount">
+                            0
+                        </strong>
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">⚠️</div>
+
+                    <div>
+                        <span class="stat-label">
+                            Violations
+                        </span>
+
+                        <strong id="adminViolationCount">
+                            0
+                        </strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ADMIN ACTIONS -->
+
+            <div class="dashboard-card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Test Management</h3>
+
+                        <p>
+                            Create and manage MCQ and coding assessments.
+                        </p>
+
+                    </div>
+
+                    <button
+                        class="primary-btn"
+                        onclick="showAdminTestForm()">
+
+                        + Create Test
+
+                    </button>
+
+                </div>
+
+
+                <div
+                    id="adminTestList"
+                    class="data-list">
+
+                    <div class="empty-state">
+
+                        <div class="empty-icon">📝</div>
+
+                        <h4>No Tests Created</h4>
+
+                        <p>
+                            Create your first assessment to get started.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CREATE TEST AREA -->
+
+            <div
+                id="adminTestForm"
+                class="dashboard-card hidden">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Create New Test</h3>
+
+                        <p>
+                            Configure the assessment before adding questions.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <form id="createTestForm">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="testTitle">
+                                Test Title
+                            </label>
+
+                            <input
+                                type="text"
+                                id="testTitle"
+                                placeholder="Example: Java Programming Test"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="testType">
+                                Test Type
+                            </label>
+
+                            <select id="testType" required>
+
+                                <option value="">
+                                    Select Test Type
+                                </option>
+
+                                <option value="mcq">
+                                    MCQ Test
+                                </option>
+
+                                <option value="coding">
+                                    Coding Test
+                                </option>
+
+                                <option value="mixed">
+                                    MCQ + Coding
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+    <div class="form-group">
+        <label for="testQuestionCount">Number of Questions</label>
+        <input
+            type="number"
+            id="testQuestionCount"
+            min="1"
+            placeholder="10"
+            required
+        >
+    </div>
+
+    <div class="form-group">
+        <label for="testDuration">Duration (minutes)</label>
+        <input
+            type="number"
+            id="testDuration"
+            min="1"
+            placeholder="30"
+            required
+        >
+    </div>
+
+</div>
+
+<div class="form-row">
+
+    <div class="form-group">
+        <label for="testTotalMarks">Total Marks</label>
+        <input
+            type="number"
+            id="testTotalMarks"
+            min="1"
+            placeholder="100"
+            required
+        >
+    </div>
+
+    <div class="form-row">
+
+    <div class="form-group">
+
+        <label>
+            Start Date & Time
+        </label>
+
+        <input
+            type="datetime-local"
+            id="testStartDateTime"
+        >
+
+    </div>
+
+    <div class="form-group">
+
+        <label>
+            End Date & Time
+        </label>
+
+        <input
+            type="datetime-local"
+            id="testEndDateTime"
+        >
+
+    </div>
+
+</div>
+
+</div>
+                    
+
+
+                    <div class="form-group">
+
+                        <label for="testDescription">
+                            Test Description
+                        </label>
+
+                        <textarea
+                            id="testDescription"
+                            rows="4"
+                            placeholder="Enter test instructions or description...">
+                        </textarea>
+
+                    </div>
+
+
+                    <div class="form-actions">
+
+                        <button
+                            type="button"
+                            class="secondary-btn"
+                            onclick="hideAdminTestForm()">
+
+                            Cancel
+
+                        </button>
+
+                        <button
+                            type="submit"
+                            class="primary-btn">
+
+                            Save Test
+
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+                <div class="management-grid">
+
+                </div>
+
+            </div>
+
+
+            <!-- RESULTS -->
+
+            <div class="dashboard-card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Results & Leaderboard</h3>
+
+                        <p>
+                            Monitor candidate performance and rankings.
+                        </p>
+
+                    </div>
+
+                    <button
+                        class="outline-btn"
+                        onclick="loadAdminResults()">
+
+                        View Results
+
+                    </button>
+
+                </div>
+
+
+                <div
+                    id="adminResults"
+                    class="data-list">
+
+                    <div class="empty-state">
+
+                        <div class="empty-icon">🏆</div>
+
+                        <h4>No Results Available</h4>
+
+                        <p>
+                            Candidate results will appear here after
+                            test submissions.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ACTIVITY LOGS -->
+
+            <div class="dashboard-card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Activity & Violation Logs</h3>
+
+                        <p>
+                            Review suspicious activities recorded during
+                            assessments.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="adminActivityLogs"
+                    class="data-list">
+
+                    <div class="empty-state">
+
+                        <div class="empty-icon">🛡️</div>
+
+                        <h4>No Activity Logs</h4>
+
+                        <p>
+                            Test activity and violation records will
+                            appear here.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CANDIDATE DASHBOARD
+        ========================== -->
+
+        <section
+            id="candidateDashboard"
+            class="section dashboard-section">
+
+            <div class="dashboard-header">
+
+                <div>
+
+                    <p class="hero-tag">CANDIDATE PANEL</p>
+
+                    <h2>
+                        Welcome,
+                        <span id="candidateDashboardName">
+                            Candidate
+                        </span>
+                    </h2>
+
+                    <p>
+                        View your available assessments, submissions
+                        and performance.
+                    </p>
+
+                </div>
+
+
+                <button
+                    class="secondary-btn"
+                    onclick="logout()">
+
+                    Logout
+
+                </button>
+
+            </div>
+
+
+            <!-- CANDIDATE STATS -->
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">📝</div>
+
+                    <div>
+
+                        <span class="stat-label">
+                            Available Tests
+                        </span>
+
+                        <strong id="candidateAvailableTests">
+                            0
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">📤</div>
+
+                    <div>
+
+                        <span class="stat-label">
+                            Submitted
+                        </span>
+
+                        <strong id="candidateSubmittedTests">
+                            0
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">🏆</div>
+
+                    <div>
+
+                        <span class="stat-label">
+                            Average Score
+                        </span>
+
+                        <strong id="candidateAverageScore">
+                            0%
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="stat-card">
+
+                    <div class="stat-icon">⚠️</div>
+
+                    <div>
+
+                        <span class="stat-label">
+                            Violations
+                        </span>
+
+                        <strong id="candidateViolationCount">
+                            0
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- AVAILABLE TESTS -->
+
+            <div class="dashboard-card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Available Assessments</h3>
+
+                        <p>
+                            Select an assessment to begin your test.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="candidateTestList"
+                    class="test-list">
+
+                    <div class="empty-state">
+
+                        <div class="empty-icon">📚</div>
+
+                        <h4>No Tests Available</h4>
+
+                        <p>
+                            Tests assigned to you will appear here.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- SUBMISSION HISTORY -->
+
+            <div class="dashboard-card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Submission History</h3>
+
+                        <p>
+                            Review your previous assessments and scores.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="candidateHistory"
+                    class="data-list">
+
+                    <div class="empty-state">
+
+                        <div class="empty-icon">📊</div>
+
+                        <h4>No Submission History</h4>
+
+                        <p>
+                            Your completed assessments will appear here.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- =========================
+             TEST / EXAM PAGE
+        ========================== -->
+
+        <section id="testPage" class="section test-section">
+
+            <!-- TEST HEADER -->
+
+            <div class="test-topbar">
+
+                <div class="test-info">
+
+                    <p class="hero-tag">LIVE ASSESSMENT</p>
+
+                    <h2 id="activeTestTitle">
+                        Online Assessment
+                    </h2>
+
+                </div>
+
+
+                <div class="test-timer">
+
+                    <span>⏱️</span>
+
+                    <strong id="testTimer">
+                        60:00
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- MONITORING STATUS -->
+
+            <div class="monitoring-bar">
+
+                <div class="monitor-status">
+
+                    <span
+                        id="cameraStatusDot"
+                        class="status-dot">
+                    </span>
+
+                    <span>
+                        Camera
+                    </span>
+
+                    <strong id="cameraStatus">
+                        Starting...
+                    </strong>
+
+                </div>
+
+
+                <div class="monitor-status">
+
+                    <span
+                        id="micStatusDot"
+                        class="status-dot">
+                    </span>
+
+                    <span>
+                        Microphone
+                    </span>
+
+                    <strong id="micStatus">
+                        Starting...
+                    </strong>
+
+                </div>
+
+
+                <div class="monitor-status">
+
+                    <span
+                        id="fullscreenStatusDot"
+                        class="status-dot">
+                    </span>
+
+                    <span>
+                        Fullscreen
+                    </span>
+
+                    <strong id="fullscreenStatus">
+                        Required
+                    </strong>
+
+                </div>
+
+
+                <div class="violation-counter">
+
+                    ⚠️ Violations:
+
+                    <strong id="violationCount">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- TEST CONTENT -->
+
+            <div class="test-layout">
+
+
+                <!-- QUESTION AREA -->
+
+                <div class="question-area">
+
+                    <div class="question-card">
+
+                        <div class="question-header">
+
+                            <span
+                                class="question-number"
+                                id="currentQuestionNumber">
+
+                                Question 1
+
+                            </span>
+
+                            <span
+                                class="question-marks"
+                                id="currentQuestionMarks">
+
+                                1 Mark
+
+                            </span>
+
+                        </div>
+
+
+                        <div class="question-content">
+
+                            <h3 id="questionText">
+
+                                Question will appear here.
+
+                            </h3>
+
+
+                            <!-- MCQ OPTIONS -->
+
+                            <div
+                                id="mcqOptions"
+                                class="options-container">
+
+                                <label class="option">
+
+                                    <input
+                                        type="radio"
+                                        name="answer"
+                                        value="0">
+
+                                    <span class="option-label">
+                                        A
+                                    </span>
+
+                                    <span
+                                        id="optionText0"
+                                        class="option-text">
+
+                                        Option A
+
+                                    </span>
+
+                                </label>
+
+
+                                <label class="option">
+
+                                    <input
+                                        type="radio"
+                                        name="answer"
+                                        value="1">
+
+                                    <span class="option-label">
+                                        B
+                                    </span>
+
+                                    <span
+                                        id="optionText1"
+                                        class="option-text">
+
+                                        Option B
+
+                                    </span>
+
+                                </label>
+
+
+                                <label class="option">
+
+                                    <input
+                                        type="radio"
+                                        name="answer"
+                                        value="2">
+
+                                    <span class="option-label">
+                                        C
+                                    </span>
+
+                                    <span
+                                        id="optionText2"
+                                        class="option-text">
+
+                                        Option C
+
+                                    </span>
+
+                                </label>
+
+
+                                <label class="option">
+
+                                    <input
+                                        type="radio"
+                                        name="answer"
+                                        value="3">
+
+                                    <span class="option-label">
+                                        D
+                                    </span>
+
+                                    <span
+                                        id="optionText3"
+                                        class="option-text">
+
+                                        Option D
+
+                                    </span>
+
+                                </label>
+
+                            </div>
+
+
+                            <!-- CODING AREA -->
+
+                            <div
+                                id="codingArea"
+                                class="coding-area hidden">
+
+                                <div class="coding-question">
+
+                                    <h4>
+                                        Coding Problem
+                                    </h4>
+
+                                    <p id="codingProblemText">
+                                        Coding problem will appear here.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="code-editor-header">
+
+                                    <span>
+                                        Online Code Editor
+                                    </span>
+
+                                    <select id="languageSelect">
+
+                                        <option value="cpp">
+                                            C++
+                                        </option>
+
+                                        <option value="python">
+                                            Python
+                                        </option>
+
+                                        <option value="java">
+                                            Java
+                                        </option>
+
+                                        <option value="javascript">
+                                            JavaScript
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+
+                                <textarea
+                                    id="codeEditor"
+                                    class="code-editor"
+                                    spellcheck="false"
+                                    placeholder="// Write your code here...">
+                                </textarea>
+
+
+                                <div class="code-actions">
+
+                                    <button
+                                        type="button"
+                                        class="outline-btn"
+                                        onclick="runCode()">
+
+                                        ▶ Run Code
+
+                                    </button>
+
+
+                                    <button
+                                        type="button"
+                                        class="primary-btn"
+                                        onclick="submitCode()">
+
+                                        Submit Code
+
+                                    </button>
+
+                                </div>
+
+
+                                <div
+                                    id="codeOutput"
+                                    class="code-output">
+
+                                    <strong>
+                                        Output
+                                    </strong>
+
+                                    <pre id="outputText">
+No output yet.
+                                    </pre>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- QUESTION NAVIGATION -->
+
+                        <div class="question-actions">
+
+                            <button
+                                type="button"
+                                id="previousQuestionBtn"
+                                class="secondary-btn"
+                                onclick="previousQuestion()">
+
+                                ← Previous
+
+                            </button>
+
+
+                            <button
+                                type="button"
+                                class="outline-btn"
+                                onclick="clearAnswer()">
+
+                                Clear Answer
+
+                            </button>
+
+
+                            <button
+                                type="button"
+                                id="nextQuestionBtn"
+                                class="primary-btn"
+                                onclick="nextQuestion()">
+
+                                Next →
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- QUESTION PALETTE / MONITOR -->
+
+                <aside class="test-sidebar">
+
+
+                    <!-- CAMERA PREVIEW -->
+
+                    <div class="monitor-card">
+
+                        <div class="monitor-card-header">
+
+                            <h3>Live Monitoring</h3>
+
+                            <span class="live-badge">
+                                LIVE
+                            </span>
+
+                        </div>
+
+
+                        <div class="camera-preview">
+
+                            <video
+                                id="cameraPreview"
+                                autoplay
+                                muted
+                                playsinline>
+                            </video>
+
+                            <div
+                                id="cameraPlaceholder"
+                                class="camera-placeholder">
+
+                                📷
+
+                                <span>
+                                    Camera Preview
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- QUESTION PALETTE -->
+
+                    <div class="palette-card">
+
+                        <div class="palette-header">
+
+                            <h3>Questions</h3>
+
+                            <span id="paletteProgress">
+                                0 / 0
+                            </span>
+
+                        </div>
+
+
+                        <div
+                            id="questionPalette"
+                            class="question-palette">
+
+                            <!-- Question numbers generated by JavaScript -->
+
+                        </div>
+
+
+                        <div class="palette-legend">
+
+                            <div>
+                                <span class="legend-box answered"></span>
+                                Answered
+                            </div>
+
+                            <div>
+                                <span class="legend-box unanswered"></span>
+                                Unanswered
+                            </div>
+
+                            <div>
+                                <span class="legend-box current"></span>
+                                Current
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SUBMIT TEST -->
+
+                    <div class="submit-card">
+
+                        <h3>Ready to Submit?</h3>
+
+                        <p>
+                            Make sure you have reviewed all your answers
+                            before submitting.
+                        </p>
+
+                        <button
+                            type="button"
+                            class="danger-btn full-width"
+                            onclick="submitTest()">
+
+                            Submit Test
+
+                        </button>
+
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             RESULT PAGE
+        ========================== -->
+
+        <section id="resultPage" class="section result-section">
+
+            <div class="result-header">
+
+                <div class="result-icon">
+                    🏆
+                </div>
+
+                <p class="hero-tag">
+                    ASSESSMENT COMPLETED
+                </p>
+
+                <h2>
+                    Test Submitted Successfully!
+                </h2>
+
+                <p>
+                    Your result has been calculated and recorded.
+                </p>
+
+            </div>
+
+
+            <!-- RESULT SUMMARY -->
+
+            <div class="result-summary">
+
+                <div class="result-score-card">
+
+                    <span>
+                        Your Score
+                    </span>
+
+                    <strong id="resultScore">
+                        0 / 0
+                    </strong>
+
+                    <small id="resultPercentage">
+                        0%
+                    </small>
+
+                </div>
+
+
+                <div class="result-stat">
+
+                    <span>Correct</span>
+
+                    <strong
+                        id="resultCorrect"
+                        class="success-text">
+
+                        0
+
+                    </strong>
+
+                </div>
+
+
+                <div class="result-stat">
+
+                    <span>Wrong</span>
+
+                    <strong
+                        id="resultWrong"
+                        class="danger-text">
+
+                        0
+
+                    </strong>
+
+                </div>
+
+
+                <div class="result-stat">
+
+                    <span>Unanswered</span>
+
+                    <strong id="resultUnanswered">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- RESULT DETAILS -->
+
+            <div class="dashboard-card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Performance Summary</h3>
+
+                        <p>
+                            Review your assessment performance.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="resultDetails"
+                    class="result-details">
+
+                    <!-- Result details generated by JavaScript -->
+
+                </div>
+
+            </div>
+
+
+            <!-- ANSWER REVIEW -->
+
+            <div class="dashboard-card">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <h3>Answer Review</h3>
+
+                        <p>
+                            Review your submitted answers and results.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="answerReview"
+                    class="answer-review">
+
+                    <!-- Answer review generated by JavaScript -->
+
+                </div>
+
+            </div>
+
+
+            <!-- RESULT ACTIONS -->
+
+            <div class="result-actions">
+
+                <button
+                    type="button"
+                    class="secondary-btn"
+                    onclick="showSection('candidateDashboard')">
+
+                    ← Back to Dashboard
+
+                </button>
+
+
+                <button
+                    type="button"
+                    class="primary-btn"
+                    onclick="loadCandidateHistory()">
+
+                    View My History
+
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div>
+
+                <div class="logo">
+                    🎓 <span>ExamShuffle</span>
+                </div>
+
+                <p>
+                    Smart Testing • Better Learning
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a
+                    href="#"
+                    onclick="showSection('home')">
+
+                    Home
+
+                </a>
+
+                <a
+                    href="#"
+                    onclick="showSection('about')">
+
+                    About
+
+                </a>
+
+                <a
+                    href="#"
+                    onclick="showSection('login')">
+
+                    Login
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 ExamShuffle. All rights reserved.
+            </p>
+
+            <p>
+                Online Test & Coding Assessment Platform
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+<script type="module" src="firebase-config.js"></script>
+  <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
